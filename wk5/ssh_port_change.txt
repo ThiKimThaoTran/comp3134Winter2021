@@ -1,0 +1,3 @@
+
+6. # service ssh restart
+7. ssh root@134.122.43.154 -p 2222
