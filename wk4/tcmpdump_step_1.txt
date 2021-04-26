@@ -1,0 +1,83 @@
+# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+02:52:06.206282 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 2104386237:2104386345, ack 3637964561, win 501, options [nop,nop,TS val 856468447 ecr 991355111], length 108
+02:52:06.206337 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 856468447 ecr 991355111], length 36
+02:52:06.206368 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 856468448 ecr 991355111], length 108
+02:52:06.206395 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 856468448 ecr 991355111], length 36
+02:52:06.207885 IP 134.122.43.154.40573 > dns.google.domain: 60369+ PTR? 9.118.34.173.in-addr.arpa. (43)
+02:52:06.212964 IP dns.google.domain > 134.122.43.154.40573: 60369 NXDomain 0/1/0 (136)
+02:52:06.213088 IP 134.122.43.154.58447 > dns.google.domain: 16956+ PTR? 154.43.122.134.in-addr.arpa. (45)
+02:52:06.216158 IP 173.34.118.9.51683 > 134.122.43.154.ssh: Flags [.], ack 0, win 2047, options [nop,nop,TS val 991355128 ecr 856468438], length 0
+02:52:06.224183 IP 173.34.118.9.51683 > 134.122.43.154.ssh: Flags [.], ack 288, win 2043, options [nop,nop,TS val 991355136 ecr 856468448], length 0
+02:52:06.238081 IP dns.google.domain > 134.122.43.154.58447: 16956 NXDomain 0/1/0 (112)
+02:52:06.238317 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 288:508, ack 1, win 501, options [nop,nop,TS val 856468479 ecr 991355136], length 220
+02:52:06.238393 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 508:740, ack 1, win 501, options [nop,nop,TS val 856468480 ecr 991355136], length 232
+02:52:06.238455 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 740:1008, ack 1, win 501, options [nop,nop,TS val 856468480 ecr 991355136], length 268
+02:52:06.238493 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 1008:1204, ack 1, win 501, options [nop,nop,TS val 856468480 ecr 991355136], length 196
+02:52:06.238521 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 1204:1240, ack 1, win 501, options [nop,nop,TS val 856468480 ecr 991355136], length 36
+02:52:06.238684 IP 134.122.43.154.60281 > dns.google.domain: 37457+ PTR? 8.8.8.8.in-addr.arpa. (38)
+02:52:06.239691 IP dns.google.domain > 134.122.43.154.60281: 37457 1/0/0 PTR dns.google. (62)
+02:52:06.239759 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 1240:1380, ack 1, win 501, options [nop,nop,TS val 856468481 ecr 991355136], length 140
+02:52:06.239801 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 1380:1416, ack 1, win 501, options [nop,nop,TS val 856468481 ecr 991355136], length 36
+02:52:06.239859 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 1416:1540, ack 1, win 501, options [nop,nop,TS val 856468481 ecr 991355136], length 124
+02:52:06.239892 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 1540:1576, ack 1, win 501, options [nop,nop,TS val 856468481 ecr 991355136], length 36
+02:52:06.258402 IP 173.34.118.9.51683 > 134.122.43.154.ssh: Flags [.], ack 1576, win 2027, options [nop,nop,TS val 991355168 ecr 856468481], length 0
+02:52:06.258451 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 1576:4472, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 2896
+02:52:06.258491 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 4472:4808, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 336
+02:52:06.258597 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 4808:4996, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 188
+02:52:06.258658 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 4996:5032, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 36
+02:52:06.258696 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 5032:5236, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 204
+02:52:06.258724 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 5236:5272, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 36
+02:52:06.258759 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 5272:5476, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 204
+02:52:06.258786 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 5476:5512, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 36
+02:52:06.258820 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 5512:5716, ack 1, win 501, options [nop,nop,TS val 856468500 ecr 991355168], length 204
+02:52:06.272842 IP 173.34.118.9.51683 > 134.122.43.154.ssh: Flags [.], ack 5716, win 2044, options [nop,nop,TS val 991355189 ecr 856468500], length 0
+02:52:06.272893 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 5716:7168, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 1452
+02:52:06.273036 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 7168:7356, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 188
+02:52:06.273079 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 7356:7392, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 36
+02:52:06.273124 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 7392:7596, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 204
+02:52:06.273153 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 7596:7632, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 36
+02:52:06.273188 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 7632:7836, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 204
+02:52:06.273216 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 7836:7872, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 36
+02:52:06.273251 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 7872:8068, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 196
+02:52:06.273279 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 8068:8104, ack 1, win 501, options [nop,nop,TS val 856468514 ecr 991355189], length 36
+02:52:06.291039 IP 173.34.118.9.51683 > 134.122.43.154.ssh: Flags [.], ack 8104, win 2010, options [nop,nop,TS val 991355202 ecr 856468514], length 0
+02:52:06.291091 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 8104:9520, ack 1, win 501, options [nop,nop,TS val 856468532 ecr 991355202], length 1416
+02:52:06.291229 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 9520:9708, ack 1, win 501, options [nop,nop,TS val 856468532 ecr 991355202], length 188
+02:52:06.291265 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 9708:9744, ack 1, win 501, options [nop,nop,TS val 856468532 ecr 991355202], length 36
+02:52:06.291303 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 9744:9948, ack 1, win 501, options [nop,nop,TS val 856468532 ecr 991355202], length 204
+02:52:06.291328 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 9948:9984, ack 1, win 501, options [nop,nop,TS val 856468532 ecr 991355202], length 36
+02:52:06.291363 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 9984:10188, ack 1, win 501, options [nop,nop,TS val 856468532 ecr 991355202], length 204
+02:52:06.291390 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 10188:10224, ack 1, win 501, options [nop,nop,TS val 856468533 ecr 991355202], length 36
+02:52:06.291424 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 10224:10420, ack 1, win 501, options [nop,nop,TS val 856468533 ecr 991355202], length 196
+02:52:06.291450 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 10420:10456, ack 1, win 501, options [nop,nop,TS val 856468533 ecr 991355202], length 36
+02:52:06.291482 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 10456:10660, ack 1, win 501, options [nop,nop,TS val 856468533 ecr 991355202], length 204
+02:52:06.304846 IP 173.34.118.9.51683 > 134.122.43.154.ssh: Flags [.], ack 10660, win 2044, options [nop,nop,TS val 991355220 ecr 856468533], length 0
+02:52:06.304894 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 10660:12128, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 1468
+02:52:06.305024 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 12128:12316, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 188
+02:52:06.305058 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 12316:12352, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 36
+02:52:06.305095 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 12352:12556, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 204
+02:52:06.305123 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 12556:12592, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 36
+02:52:06.305157 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 12592:12796, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 204
+02:52:06.305184 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 12796:12832, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 36
+02:52:06.305217 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 12832:13036, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 204
+02:52:06.305243 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 13036:13072, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 36
+02:52:06.305276 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 13072:13276, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 204
+02:52:06.305303 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 13276:13312, ack 1, win 501, options [nop,nop,TS val 856468546 ecr 991355220], length 36
+02:52:06.317876 IP 173.34.118.9.51683 > 134.122.43.154.ssh: Flags [.], ack 13312, win 2006, options [nop,nop,TS val 991355232 ecr 856468546], length 0
+02:52:06.317940 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 13312:14992, ack 1, win 501, options [nop,nop,TS val 856468559 ecr 991355232], length 1680
+02:52:06.318081 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 14992:15180, ack 1, win 501, options [nop,nop,TS val 856468559 ecr 991355232], length 188
+02:52:06.318120 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 15180:15216, ack 1, win 501, options [nop,nop,TS val 856468559 ecr 991355232], length 36
+02:52:06.318160 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 15216:15420, ack 1, win 501, options [nop,nop,TS val 856468559 ecr 991355232], length 204
+02:52:06.318189 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 15420:15456, ack 1, win 501, options [nop,nop,TS val 856468559 ecr 991355232], length 36
+02:52:06.318225 IP 134.122.43.154.ssh > 173.34.118.9.51683: Flags [P.], seq 15456:15660, ack 1, win 501, options [nop,nop,TS val 856468559 ecr 991355232], length 204
+
+
+
+^C
+51227 packets captured
+51231 packets received by filter
+3 packets dropped by kernel
+
+

@@ -1,0 +1,12 @@
+#  tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+15:14:07.146219 IP 134.122.43.154.ssh > 173.34.118.9.53334: Flags [P.], seq 2706536958:2706537002, ack 2730341537, win 501, options [nop,nop,TS val 900989387 ecr 996080940], length 44
+15:14:07.146259 IP 134.122.43.154.ssh > 173.34.118.9.53334: Flags [P.], seq 44:152, ack 1, win 501, options [nop,nop,TS val 900989387 ecr 996080940], length 108
+15:14:07.146337 IP 134.122.43.154.ssh > 173.34.118.9.53334: Flags [P.], seq 152:188, ack 1, win 501, options [nop,nop,TS val 900989387 ecr 996080940], length 36
+15:14:07.156586 IP 173.34.118.9.53334 > 134.122.43.154.ssh: Flags [.], ack 188, win 19737, options [nop,nop,TS val 996080958 ecr 900989387], length 0
+15:14:08.166786 IP 134.122.43.154.ssh > 42.192.183.38.36998: Flags [P.], seq 656347654:656347722, ack 221641462, win 507, options [nop,nop,TS val 2454949619 ecr 665901058], length 68
+15:14:08.362910 IP 42.192.183.38.36998 > 134.122.43.154.ssh: Flags [.], ack 68, win 262, options [nop,nop,TS val 665964479 ecr 2454949619,nop,nop,sack 1 {0:68}], length 0
+15:14:08.362951 IP 134.122.43.154 > 42.192.183.38: ICMP 134.122.43.154 tcp port ssh unreachable, length 72
+15:14:08.811043 IP 42.192.183.38.36998 > 134.122.43.154.ssh: Flags [FP.], seq 1:53, ack 68, win 262, options [nop,nop,TS val 665964928 ecr 2454949619], length 52
+15:14:08.811080 IP 134.122.43.154 > 42.192.183.38: ICMP 134.122.43.154 tcp port ssh unreachable, length 112
+15:14:16.465533 IP 88.214.24.148.42654 > 134.122.43.154.3409: Flags [S], seq 48746913, win 1024, length 0
