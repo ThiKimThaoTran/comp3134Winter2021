@@ -1,0 +1,14 @@
+1. https://www.utoronto.ca / 128.100.166.120
+Geolocation: CA (Canada), ON, Ontario, M5S Toronto
+
+2. https://www.yorku.ca/ 130.63.236.137
+Geolocation: CA (Canada), ON, Ontario, M3J Toronto
+
+3. http://www.highparktoronto.com/ 67.20.113.142
+Geolocation: US (United States), UT, Utah, 84606 Provo 
+
+4. https://www.instagram.com/ 54.197.15.168
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+
+5. https://www.rexall.ca/ 45.60.101.105
+Geolocation: US (United States), CA, California, 94065 Redwood City

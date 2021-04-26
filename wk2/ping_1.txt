@@ -1,0 +1,9 @@
+PING www.google.com(yyz10s03-in-x04.1e100.net (2607:f8b0:400b:808::2004)) 56 data bytes
+64 bytes from yyz10s03-in-x04.1e100.net (2607:f8b0:400b:808::2004): icmp_seq=1 ttl=121 time=0.521 ms
+64 bytes from yyz10s03-in-x04.1e100.net (2607:f8b0:400b:808::2004): icmp_seq=2 ttl=121 time=0.525 ms
+64 bytes from yyz10s03-in-x04.1e100.net (2607:f8b0:400b:808::2004): icmp_seq=3 ttl=121 time=0.512 ms
+64 bytes from yyz10s03-in-x04.1e100.net (2607:f8b0:400b:808::2004): icmp_seq=4 ttl=121 time=0.582 ms
+^C
+--- www.google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3034ms
+rtt min/avg/max/mdev = 0.512/0.535/0.582/0.027 ms

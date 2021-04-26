@@ -1,0 +1,31 @@
+traceroute to www.microsoft.com (104.123.194.9), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.5.127 (10.78.5.127)  1.548 ms 10.78.5.117 (10.78.5.117)  1.170 ms 10.78.5.115 (10.78.5.115)  1.520 ms
+ 3  138.197.249.82 (138.197.249.82)  1.212 ms  1.197 ms  1.182 ms
+ 4  168.143.228.10 (168.143.228.10)  1.636 ms  1.622 ms ae-5.r00.toroon01.ca.bb.gin.ntt.net (168.143.228.40)  1.833 ms
+ 5  ae-2.r22.chcgil09.us.bb.gin.ntt.net (129.250.2.46)  13.044 ms  13.032 ms  13.012 ms
+ 6  ae-12.r08.chcgil09.us.bb.gin.ntt.net (129.250.2.190)  12.415 ms  11.418 ms  11.381 ms
+ 7  ae-0.akamai-onnet.chcgil09.us.bb.gin.ntt.net (140.174.28.86)  11.370 ms  11.359 ms  11.094 ms
+ 8  ae12.r01.ord01.icn.netarch.akamai.com (23.207.231.34)  15.685 ms  15.549 ms  15.532 ms
+ 9  ae3.r02.yto01.icn.netarch.akamai.com (23.32.63.111)  59.080 ms  48.348 ms  48.297 ms
+10  ae2.r01.yto01.ien.netarch.akamai.com (23.203.148.37)  37.470 ms  37.748 ms  37.738 ms
+11  ae2.torix-yto.netarch.akamai.com (23.203.148.129)  24.681 ms ae3.torix-yto.netarch.akamai.com (23.203.148.193)  24.268 ms  24.249 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

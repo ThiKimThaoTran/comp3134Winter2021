@@ -1,0 +1,12 @@
+PING 134.122.43.54 (134.122.43.54): 56 data bytes
+64 bytes from 134.122.43.54: icmp_seq=0 ttl=56 time=25.290 ms
+64 bytes from 134.122.43.54: icmp_seq=1 ttl=56 time=24.761 ms
+64 bytes from 134.122.43.54: icmp_seq=2 ttl=56 time=19.431 ms
+64 bytes from 134.122.43.54: icmp_seq=3 ttl=56 time=23.623 ms
+64 bytes from 134.122.43.54: icmp_seq=4 ttl=56 time=24.515 ms
+64 bytes from 134.122.43.54: icmp_seq=5 ttl=56 time=18.845 ms
+^C
+--- 134.122.43.54 ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 18.845/22.744/25.290/2.602 ms
+min@Mins-MacBook-Pro ~ % 
