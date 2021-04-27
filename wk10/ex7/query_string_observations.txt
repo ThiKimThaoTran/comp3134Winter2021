@@ -1,0 +1,11 @@
+1) Navigate to the form and type a valid English word. Write your observations.
+The browser returns a valid response
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. Write your observations
+The website change to (/mispelling).
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script> Write your observations.
+The website change to (/noresult). 
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script> after the `term=` section of the URL. Write your observations.
+The website is the same as the above one

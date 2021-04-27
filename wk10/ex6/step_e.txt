@@ -1,0 +1,6 @@
+• Should not be able to view files and folders before html directory
+Check if the directory or file exists in the directory 
+Check if the path is anywhere else than the base is
+
+• Should not attempt to look at folders that do not exists
+Check if the directory or file does not exist inside the base

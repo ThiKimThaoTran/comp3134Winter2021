@@ -1,0 +1,2 @@
+The browser shows all files outside the directory_traversal_part1.php files
+The html directory

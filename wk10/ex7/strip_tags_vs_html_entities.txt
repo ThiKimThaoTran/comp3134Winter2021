@@ -1,0 +1,4 @@
+Strip_tags will remove all HTML tags: and htmlentities will encode characters which are special characters in HTML
+
+
+A script tag can either include the JavaScript directly, or it can point to a URL where the script should be loaded from. The htmlentities() function converts characters to HTML entities. It will preventing the execution of dynamically inserted script tags
